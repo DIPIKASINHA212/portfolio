@@ -1,4 +1,5 @@
 import "./App.css";
+import profilePic from "./assets/dipika.jpg.jpg";
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       <div className="card">
 
         <img
-          src="/ddddIMG-20240829-WA0008_formphotoeditor.com_copy_540.jpg"
+          src={profilePic}
           alt="Dipika Sinha"
           className="profile-img"
         />
